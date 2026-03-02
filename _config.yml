@@ -1,27 +1,27 @@
 # ====================================================
 # Page Meta
 # ====================================================
-page_title: My Awesome App                       # Optional. Defaults to app_name if empty
+page_title                            : YourStickerFace Anonymizer
 
 
 # ====================================================
 # App Info
 # ====================================================
-playstore_link: https://play.google.com/store/apps/details?id=com.example.myapp
+playstore_link                        : https://play.google.com/store/apps/details?id=com.israelperales.yourstickerface&hl=es&gl=mx
 presskit_download_link:                         # Optional. e.g. assets/presskit.zip
 
-app_icon: assets/appicon.webp
-app_name: My Awesome App
-app_price: Free
-app_description: A beautifully simple app that helps users get things done faster.
+app_icon                              : assets/appicon.webp
+app_name                              : YourStickerFace Anonymizer
+app_price                             : Gratis
+app_description                       : Anonymiza caras automáticamente. Sin internet, sin servidores, sin rastro.
 
 
 # ====================================================
 # Localization & Dynamic Content
 # ====================================================
 price_text: "Free"                              # Text shown instead of price
-changelog_title: "What’s New"
-latest_changes:                                 # Supports markdown or plain text
+changelog_title                       : Novedades
+latest_changes                        : <br>🎉 ¡Bienvenido al lanzamiento oficial de YourStickerFace Anonymizer!<br><br>En esta primera versión (v1.0) te entregamos la herramienta definitiva para proteger la privacidad de tus fotos antes de compartirlas. <br><br>¿Qué incluimos hoy?<br>🤖 Detección facial automática on-device.<br>🎭 Ocultamiento de rostros con emojis y stickers.<br>📵 Procesamiento 100% offline (sin servidores).<br>🧼 Limpieza automática de metadatos EXIF.<br><br>¡Gracias por probar la app y tomar el control de tu privacidad!
   - Initial release
   - Performance improvements
   - UI polish
@@ -30,7 +30,7 @@ latest_changes:                                 # Supports markdown or plain tex
 # ====================================================
 # Author / Company Info (Footer)
 # ====================================================
-your_name: Your Name or Company
+your_name                             : Israel Perales
 your_link: https://yourwebsite.com
 your_city: Your City
 email_address: contact@yourdomain.com
