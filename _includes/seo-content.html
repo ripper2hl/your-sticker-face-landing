@@ -1,9 +1,9 @@
 <section class="seo-content">
-    <h2>Todo sobre {{ site.app_name }} para Android</h2>
+    <h2>¿Por qué elegir {{ site.app_name }}?</h2>
     <p>
-        Descubre <strong>{{ site.app_name }}</strong>. {{ site.app_description }}
+        <strong>{{ site.app_name }}</strong> usa detección facial on-device para encontrar caras en tus fotos y cubrirlas con emojis o stickers en segundos, manteniendo tu privacidad siempre bajo tu control.
         {% if site.features.size > 0 %}
-        Diseñada para ofrecer la mejor experiencia, esta aplicación destaca por características clave como:
+        Diseñada para padres, creadores de contenido y cualquier persona que quiera proteger identidades, esta app destaca por:
         {% for feature in site.features limit:4 %}
         <strong>{{ feature.title | downcase }}</strong>{% if forloop.last == false %}, {% else %}.{% endif %}
         {% endfor %}
@@ -12,6 +12,6 @@
     <p>
         Desarrollada por <strong>{{ site.your_name | default: 'nuestro equipo' }}</strong>, puedes {% if site.app_price
         == 'Gratis' or site.app_price == 'Free' %}descargarla totalmente gratis{% else %}conseguirla por {{
-        site.app_price }}{% endif %} directamente desde la Google Play Store. ¡Aprovecha al máximo tu dispositivo móvil!
+        site.app_price }}{% endif %} directamente desde la Google Play Store. Tu privacidad, en tus manos.
     </p>
 </section>

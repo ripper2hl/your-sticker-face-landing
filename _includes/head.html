@@ -6,6 +6,7 @@
 
 	<title class="pageTitle">{{ site.page_title }}</title>
 	<meta name="description" content="{{ site.app_description }}">
+	<meta name="keywords" content="anonimizar rostros, privacidad fotos, stickers emoji caras, app offline, EXIF, Android, face anonymizer">
 
 	<link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 
@@ -14,6 +15,7 @@
 	<meta property="og:description" content="{{ site.app_description }}">
 	<meta property="og:image" content="{{ site.app_icon | absolute_url }}">
 	<meta property="og:url" content="{{ site.url }}{{ page.url | replace:'index.html','' }}">
+	<meta property="og:type" content="website">
 
 	<!-- Twitter Cards -->
 	<meta name="twitter:card" content="summary">
@@ -27,7 +29,8 @@
 		"@type": "SoftwareApplication",
 		"name": "{{ site.app_name }}",
 		"operatingSystem": "Android",
-		"applicationCategory": "MobileApplication",
+		"applicationCategory": "PhotographyApplication",
+		"description": "{{ site.app_description }}",
 		"url": "{{ page.url | absolute_url }}",
 		"offers": {
 			"@type": "Offer",

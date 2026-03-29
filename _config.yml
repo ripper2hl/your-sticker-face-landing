@@ -1,8 +1,7 @@
 # ====================================================
 # Page Meta
 # ====================================================
-page_title                            : YourStickerFace Anonymizer
-
+page_title                            : YourStickerFace Anonymizer – Anonimiza rostros offline con IA
 
 # ====================================================
 # App Info
@@ -13,13 +12,13 @@ presskit_download_link:                         # Optional. e.g. assets/presskit
 app_icon                              : assets/appicon.webp
 app_name                              : YourStickerFace Anonymizer
 app_price                             : Gratis
-app_description                       : Anonymiza caras automáticamente. Sin internet, sin servidores, sin rastro.
+app_description                       : Detecta y anonimiza rostros automáticamente antes de compartir tus fotos. Sin internet, sin servidores, sin registro.
 
 
 # ====================================================
 # Localization & Dynamic Content
 # ====================================================
-price_text: "Free"                              # Text shown instead of price
+price_text: "Gratis"                              # Text shown instead of price
 changelog_title                       : Novedades
 latest_changes                        : <br>🎉 ¡Bienvenido al lanzamiento oficial de YourStickerFace Anonymizer!<br><br>En esta primera versión (v1.0) te entregamos la herramienta definitiva para proteger la privacidad de tus fotos antes de compartirlas. <br><br>¿Qué incluimos hoy?<br>🤖 Detección facial automática on-device.<br>🎭 Ocultamiento de rostros con emojis y stickers.<br>📵 Procesamiento 100% offline (sin servidores).<br>🧼 Limpieza automática de metadatos EXIF.<br><br>¡Gracias por probar la app y tomar el control de tu privacidad!
   - Initial release
@@ -31,16 +30,16 @@ latest_changes                        : <br>🎉 ¡Bienvenido al lanzamiento ofi
 # Author / Company Info (Footer)
 # ====================================================
 your_name                             : Israel Perales
-your_link: https://yourwebsite.com
-your_city: Your City
-email_address: contact@yourdomain.com
+your_link                             : https://www.israel-perales.com
+your_city                             : Monterrey, MX
+email_address                         : israel-perales@outlook.com
 
 linkedin_username:
 linkedin_company:
 facebook_username:
-instagram_username:
-twitter_username:
-github_username:
+instagram_username: ripper2hl
+twitter_username: ripper2hl
+github_username                       : ripper2hl
 youtube_username:
 mastodon_link:
 
@@ -50,61 +49,61 @@ mastodon_link:
 # ====================================================
 features:
 
-  - title: Fast & Lightweight
-    description: Optimized for speed and low resource usage.
-    fontawesome_icon_name: bolt
+  - title: Detección automática de rostros
+    description: Selecciona una foto y la IA identifica las caras al instante. Sin editar a mano.
+    fontawesome_icon_name: robot
 
-  - title: Clean Interface
-    description: Modern, minimal UI focused on usability.
-    fontawesome_icon_name: mobile-alt
-
-  - title: Offline Ready
-    description: Works even when you’re not connected.
+  - title: 100% offline
+    description: Todo el procesamiento ocurre localmente en tu dispositivo. Sin servidores, sin cuentas, sin subir fotos.
     fontawesome_icon_name: wifi-slash
 
-  - title: Easy to Configure
-    description: Customize everything from a single config file.
-    fontawesome_icon_name: sliders-h
+  - title: Memoria de rostros
+    description: Activa el reconocimiento de personas para que la app recuerde a tus contactos y les asigne siempre el mismo sticker.
+    fontawesome_icon_name: user-friends
 
-  - title: Secure by Design
-    description: Built with best practices for user safety.
-    fontawesome_icon_name: lock
+  - title: Rostros desconocidos cubiertos
+    description: Las personas no registradas reciben stickers aleatorios, ideal para fotos en lugares públicos.
+    fontawesome_icon_name: dice
 
-  - title: Free to Use
-    description: No hidden costs or subscriptions.
-    fontawesome_icon_name: star
+  - title: Elimina metadatos EXIF
+    description: Al exportar se borran datos como ubicación GPS, fecha y modelo del dispositivo.
+    fontawesome_icon_name: broom
+
+  - title: Compartir rápido
+    description: Guarda o comparte la imagen final directamente desde Android en segundos.
+    fontawesome_icon_name: share-alt
 
 
 # ====================================================
 # Theme Settings
 # ====================================================
-topbar_color: "#000000"
-topbar_transparency: 0.1
-topbar_title_color: "#ffffff"
+topbar_color: "#0E1415"
+topbar_transparency: 0.6
+topbar_title_color: "#E0F7FA"
 
 cover_image: assets/headerimage.webp
-cover_overlay_color: "#363b3d"
-cover_overlay_transparency: 0.8
+cover_overlay_color: "#0E1415"
+cover_overlay_transparency: 0.75
 
 device_color: black                             # Options: blue, black, yellow, coral, white
 
-body_background_color: "#ffffff"
-link_color: "#1d63ea"
+body_background_color: "#F4FAFB"
+link_color: "#006879"
 
-app_title_color: "#ffffff"
-app_price_color: "#ffffff"
-app_description_color: "#ffffff"
+app_title_color: "#E0F7FA"
+app_price_color: "#80DEEA"
+app_description_color: "#CAE8EB"
 
-feature_title_color: "#000000"
-feature_text_color: "#666666"
+feature_title_color: "#0D1F22"
+feature_text_color: "#546E7A"
 
-feature_icons_foreground_color: "#1d63ea"
-feature_icons_background_color: "#e6e6e6"
+feature_icons_foreground_color: "#006879"
+feature_icons_background_color: "#9EEFFD"
 
-social_icons_foreground_color: "#666666"
-social_icons_background_color: "#e6e6e6"
+social_icons_foreground_color: "#006879"
+social_icons_background_color: "#DAE9EC"
 
-footer_text_color: "#666666"
+footer_text_color: "#546E7A"
 
 
 ####################################################
